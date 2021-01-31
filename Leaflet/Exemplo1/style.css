@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#map {
+  height: 95%;
+  width: 95%;
+}
+
+.lista {
+  color: green;
+  font-family: sans-serif;
+  border-style: double;
+}
+
+img {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  z-index: 500;
+}

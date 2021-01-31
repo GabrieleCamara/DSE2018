@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Minha primeira página HTML</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Olá</h1>
+    <h2>Olá</h2>
+    <h3>Olá</h3>
+    <h4>Olá</h4>
+    <h5>Olá</h5>
+    <h6>Olá</h6>
+    <p>Isso foi um <i>eco</i> em <b>HTML</b></p>
+    <h4 class="lista">Pessoas que gostam de abacate:</h4>
+    <ol>
+      <li>Gabriele.</li>
+      <li>Vovó Juju.</li>
+    </ol>
+    <nav>
+    <p><a href="http://www.mundoboaforma.com.br/15-beneficios-do-abacate-para-que-serve-e-propriedades/" target="_blank">Propriedade do abacate</a></p>
+    <img src="https://abrilsaude.files.wordpress.com/2017/07/abacate3.jpg?quality=85&strip=info&crop=true&w=680&h=453"/>
+    <video src="http://techslides.com/demos/sample-videos/small.mp4" controls></video>
+    </nav>
+    <a href="aula3-2">Ver dica</a>
+
+    <script>
+      console.log("Olá Mundo!");
+      document.write("Olá Mundo do abacate!");
+      var num = 5;
+      if(num <= 10){
+        document.write('Número igual a 10<br/>');
+      } else {
+        document.write('Número diferente de 10<br/>')
+      };
+
+      function calcularMedia(numOne,numTwo) {
+        return (numOne+numTwo)/2;
+      };
+      document.write(calcularMedia(50,num));
+
+      for (let i = 0; i <= 10; i++) {
+        document.write('<br/>Passou pelo valor: ' + i);
+      };
+    </script>
+
+  </body>
+</html>

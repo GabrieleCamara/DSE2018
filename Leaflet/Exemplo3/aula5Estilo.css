@@ -1,0 +1,12 @@
+/* Definindo o tamanho das outras tags */
+html, body {
+   heigh: 100%;
+   width: 100%;
+   margin: 0px;
+}
+
+/* Definindo a dimensão do mapa - Ocupara toda a área do HTML */
+#mapaAula5 {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+/* Dimensionando a página */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Dimensionando o mapa */
+#map {
+  height: 95%;
+  width: 95%;
+}
+
+img {
+  position: absolute;
+  z-index: 500;
+  top: 80%;
+  left: 3%;
+}
